@@ -53,7 +53,7 @@ find /usr/local -name “libgnuradio-lora_sdr.so*”
 ```
 Then you can copy them to necessary for GR dir:
 
-(thinking its always /usr/lib/)
+(I think it's always /usr/lib )
 ```
 sudo cp /usr/local/lib/x86_64-linux-gnu/libgnuradio-lora_sdr.so /usr/lib/
 sudo cp /usr/local/lib/x86_64-linux-gnu/libgnuradio-lora_sdr.so.1.0.0git /usr/lib/
