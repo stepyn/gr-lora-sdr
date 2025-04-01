@@ -8,7 +8,7 @@ Here you can find installation tutorial on Linux Mint 22.1 without docker and mi
 
 ## Installation
 
-```
+```bash
 sudo apt-get update
 ```
 Install dependences:
@@ -20,12 +20,12 @@ libgmp-dev libmpfr-dev libyaml-cpp-dev python3-dev python3-mako \
 python3-pyqt5
 ```
 Clone the repo
-```
+```bash
 git clone https://github.com/tapparelj/gr-lora_sdr.git
 cd gr-lora_sdr
 ```
 Building the project 
-```
+```bash
 mkdir build
 cd build
 cmake ..
@@ -39,18 +39,18 @@ GNU Radio runs the script with the command:
 `/usr/bin/x-terminal-emulator -e /usr/bin/python3 -u /home/mint/Downloads/gr-lora_sdr/examples/tx_rx_functionality_check.py`
 
 Type to see errors:
-```
+```bash
 python3 -u /home/mint/Downloads/gr-lora_sdr/examples/tx_rx_functionality_check.py
 ```
 Now you can see different types of errors like missing libraries, such as `ImportError: libgnuradio-lora_sdr.so.1.0.0git: cannot open shared object file: No such file or directory`
 make sure you have these libraries installed:
-```
+```bash
 find /usr/local -name “libgnuradio-lora_sdr.so*”
 ```
 Then you can copy them to necessary for GR dir:
 
 (I think it's always /usr/lib )
-```
+```bash
 sudo cp /usr/local/lib/x86_64-linux-gnu/libgnuradio-lora_sdr.so /usr/lib/
 sudo cp /usr/local/lib/x86_64-linux-gnu/libgnuradio-lora_sdr.so.1.0.0git /usr/lib/
 ```
