@@ -33,10 +33,6 @@ make
 sudo make install
 ```
 ## Issues
-`ImportError: libspdlog.so.1.11: cannot open shared object file: No such file or directory`
-
-Your program requires the libspdlog.so.1.11 library, but the system cannot find it. This means that either the library is not installed or the system does not know where to find it.
-
 - **Problem when terminal closes instantly:**
 
 GNU Radio runs the script with the command:
