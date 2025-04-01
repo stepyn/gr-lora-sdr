@@ -7,3 +7,11 @@ Firstly thnx [J. Tapparel](https://github.com/tapparelj/gr-lora_sdr) and his tea
 Here you can find installation tutorial on Linux Mint 22.1 without docker and miniconda/conda
 
 # Installation
+`asdawdawd`
+awdawd
+`sudo apt-get update`
+`sudo apt-get install cmake g++ libboost-all-dev libusb-1.0-0-dev \
+libfftw3-dev libcomedi-dev libcppunit-dev libsdl1.2-dev \
+libqt4-dev libqt4-opengl-dev libprotobuf-dev protobuf-compiler \
+libgmp-dev libmpfr-dev libyaml-cpp-dev python3-dev python3-mako \
+python3-pyqt5`
