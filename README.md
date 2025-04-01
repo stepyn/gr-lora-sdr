@@ -37,7 +37,7 @@ sudo make install
 
 Your program requires the libspdlog.so.1.11 library, but the system cannot find it. This means that either the library is not installed or the system does not know where to find it.
 
--**Problem when terminal closes instantly:**
+- **Problem when terminal closes instantly:**
 
 GNU Radio runs the script with the command:
 `/usr/bin/x-terminal-emulator -e /usr/bin/python3 -u /home/mint/Downloads/gr-lora_sdr/examples/tx_rx_functionality_check.py`
