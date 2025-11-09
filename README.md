@@ -55,6 +55,13 @@ sudo cp /usr/local/lib/x86_64-linux-gnu/libgnuradio-lora_sdr.so /usr/lib/
 sudo cp /usr/local/lib/x86_64-linux-gnu/libgnuradio-lora_sdr.so.1.0.0git /usr/lib/
 ```
 
+### Tricks
+```bash
+conda deactivate
+conda activate
+conda activate base
+conda activate myenv
+```
 
 
 
